@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS orders;
 CREATE TABLE orders(
   id bigint(20) NOT NULL AUTO_INCREMENT,
   customer_name varchar(100) DEFAULT NULL,

@@ -1,4 +1,4 @@
-
+DROP TABLE IF EXISTS order_item;
 CREATE TABLE order_item(
   id bigint(20) NOT NULL AUTO_INCREMENT,
   product_name varchar(100) DEFAULT NULL,
